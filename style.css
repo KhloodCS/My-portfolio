@@ -1,0 +1,212 @@
+.background{
+    width: 100%;
+}
+
+.bi{
+    height: 100px;
+    border-radius: 50%;
+}
+
+h2.text-body-emphasis{
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ color:darkslateblue !important;
+}
+.parent {
+    display: grid
+;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2.5rem;
+    column-gap: 1rem;
+}
+.skill > h3{
+    font-family: "Acme", sans-serif;
+ color:firebrick; 
+ font-size:large;
+ 
+}
+h1.myskills{
+          color:darkslateblue;
+    font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ color:darkslateblue; 
+ text-align: center; 
+display: flex;
+justify-content: center;
+margin-top: 40px;
+    margin-top: 100px;
+
+}
+
+h1.text-body-emphasis{
+       font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+ color:darkslateblue !important; 
+ margin-bottom: 20px;
+}
+
+.myFooter{
+    background-color:#B0E2FF	;
+}
+
+.header{
+    background-color:#B0E2FF;
+}
+span{
+    color: firebrick;
+}
+.nav-pills .nav-link.active {
+  background-color: skyblue !important; /* your custom color */
+  color: white !important;
+  border-radius: 50px; /* optional: for pill style */
+}
+
+
+
+   .top-container {
+  position: relative;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 50%; /* Adjust to vertically position text */
+  left: 30%; /* Adjust to horizontally center text */
+  transform: translate(-50%, -50%);
+ color:darkslateblue;
+   text-align: center;
+  font-size: 3rem;
+  font-weight: bold;
+  padding: 10px;
+  z-index: 2;
+      font-family: "Acme", sans-serif;
+
+}
+
+.headphoto {
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+    color: firebrick;
+}
+
+#projects{
+      font-family: "Acme", sans-serif;
+      text-align: center;
+ color:darkslateblue;
+     margin-top: 100px;
+
+
+}
+.protitle{
+        font-family: "Acme", sans-serif;
+            color: firebrick;
+              font-size: 1.5rem;
+
+
+
+}
+
+
+@media (max-width: 768px) {
+  .parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+  }
+
+  .typing, .chillies {
+    text-align: center;
+  }
+
+  .skill {
+    text-align: center;
+    width: 100%;
+  }
+}
+.body{
+  background-color: #E1F0FA;
+}
+.pp{
+text-align: justify;}
+
+/* ------------------------------------------------------ */
+    
+    .hero-section {
+      padding: 60px 20px;
+      text-align: center;
+      position: relative;
+    }
+    .hero-title {
+      font-size: 3rem;
+      background: linear-gradient(45deg, #f06292, #64b5f6);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      font-weight: 800;
+      animation: fadeInUp 1.2s ease-out;
+    }
+    .hero-subtitle {
+      color: #6a1b9a;
+      font-size: 1.3rem;
+      margin-top: 15px;
+      font-weight: 500;
+      animation: fadeInUp 1.5s ease-out;
+    }
+    .section-title {
+      margin-top: 60px;
+      font-size: 2rem;
+      color: #ec407a;
+      position: relative;
+      display: inline-block;
+      animation: fadeInUp 1.8s ease-out;
+    }
+    .section-title::after {
+      content: '';
+      width: 60%;
+      height: 3px;
+      background-color: #ba68c8;
+      position: absolute;
+      bottom: -10px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+    .icon-deco {
+      font-size: 2rem;
+      color: #f06292;
+      animation: pulse 2s infinite;
+    }
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    @keyframes pulse {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+      50% {
+        transform: scale(1.2);
+        opacity: 0.7;
+      }
+    }
